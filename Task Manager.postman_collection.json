@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "d4ef21f1-97f7-4afe-b44a-031d2e61386f",
+		"name": "Task Manager",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "22466861",
+		"_collection_link": "https://cloudy-space-264912.postman.co/workspace/TaskManager~07ebe43e-abe8-42ec-b260-2887ca8e2434/collection/22466861-d4ef21f1-97f7-4afe-b44a-031d2e61386f?action=share&source=collection_link&creator=22466861"
+	},
+	"item": [
+		{
+			"name": "Crear",
+			"item": [
+				{
+					"name": "Crear una tarea",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Tarea 3\",\r\n    \"description\": \"Esta es la descripción de la tarea 3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/tasks"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear una tarea Error",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"\",\r\n    \"description\": \"Esta es la descripción de la tarea 3\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/tasks"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Listar",
+			"item": [
+				{
+					"name": "Listar todas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/tasks"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Buscar por id",
+			"item": [
+				{
+					"name": "Obtener por id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/tasks/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener por id Error",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:8080/tasks/1"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Actualizar",
+			"item": [
+				{
+					"name": "Actualizar por id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"Tarea 1\",\r\n    \"description\": \"Esta es la descripción de la tarea 1 actualizada\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/tasks"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar por id Error",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 100,\r\n    \"title\": \"Tarea 1\",\r\n    \"description\": \"Esta es la descripción de la tarea 1 actualizada\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:8080/tasks"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Eliminar",
+			"item": [
+				{
+					"name": "Eliminar por id",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/tasks/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar por id Errror",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:8080/tasks/1"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
