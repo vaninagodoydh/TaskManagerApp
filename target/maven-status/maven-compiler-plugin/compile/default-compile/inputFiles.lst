@@ -1,0 +1,12 @@
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\entity\Task.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\exception\ExceptionConfig.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\service\impl\TaskService.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\service\ITaskService.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\dto\TaskRequestToUpdateDTO.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\repository\ITaskRepository.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\exception\NotFoundException.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\controller\TaskController.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\TaskManagerApplication.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\dto\ExceptionDTO.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\dto\TaskRequestDTO.java
+C:\Users\conta\Desktop\Projects\TaskManagerForDH\src\main\java\com\dh\TaskManager\dto\TaskResponseDTO.java
